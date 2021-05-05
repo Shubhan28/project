@@ -1,0 +1,23 @@
+h1
+{
+ font-size: 25px;
+ color: red;
+ animation-name: example;
+ animation-duration: 15s;
+ animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    0%{font-size: 26px;color: blueviolet;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    25%{font-size: 27px;color: red;font-family:'Times New Roman', Times, serif;}
+    50%{font-size: 28px;color: greenyellow;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    60%{font-size: 29px;color: green;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    70%{font-size: 31px;color: violet;font-family:Arial, Helvetica, sans-serif}
+    75%{font-size: 32px;color: pink;font-family:Georgia, 'Times New Roman', Times, serif;}
+    80%{font-size: 33px;color: crimson;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+    85%{font-size: 34px;color: chartreuse;font-family:Verdana, Geneva, Tahoma, sans-serif;}
+    90%{font-size: 35px;color: chocolate;font-family:cursive;}
+    92%{font-size: 36px;color: cornflowerblue;font-family:fantasy;}
+    95%{font-size: 37px;color: cyan;font-family:monospace;}
+    100%{font-size: 38px;color: magenta;font-family:sans-serif;}
+}
